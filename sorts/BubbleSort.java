@@ -5,7 +5,6 @@ package sorts;
 // worst: O(n^2)
 // average: O(n^2)
 
-// Chinese:
 // 时间复杂度
 // 最好: O(n) 数组本身有序时
 // 最差: O(n^2)
