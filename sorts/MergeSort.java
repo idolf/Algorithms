@@ -2,6 +2,9 @@ package sorts;
 
 // Time Complexity:
 // all: O(n*logn)
+
+// 时间复杂度
+// 所有情况: O(n*logn)
 public class MergeSort {
     public static void mergeSort(int[] arr, int l, int r) {
         if (l >= r) return;
