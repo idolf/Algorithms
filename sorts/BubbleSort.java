@@ -11,9 +11,7 @@ package sorts;
 // 平均: O(n^2)
 public class BubbleSort {
     public static void bubbleSort(int []arr) {
-        int []result = new int[arr.length];
         int t;
-        System.arraycopy(arr, 0, result, 0, arr.length);
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if (arr[i] < arr[j]) {
