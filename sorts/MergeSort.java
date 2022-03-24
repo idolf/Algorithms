@@ -1,7 +1,7 @@
 package sorts;
 
-import java.util.Arrays;
-
+// Time Complexity:
+// all: O(n*logn)
 public class MergeSort {
     public static void mergeSort(int[] arr, int l, int r) {
         if (l >= r) return;
